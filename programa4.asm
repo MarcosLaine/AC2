@@ -10,9 +10,8 @@
 # x=1;
 # y=5*x+15;
 
-li s1, 1
-li t1, 2
-slli t1, t1, 2 #t1 << 2 => t1² = 2² = 4
-add t1, t1, t1 #t1 = t1 + t1 = t1*2
-addi s2, t1, 15
+li t0, 1
+slli t1, t0, 2 #t1 << 2 => t1 * 2² = 2² = 4
+add t1, t1, t0 #t1 = t1 + t1 = t1*2
+addi s1, t1, 15
 nop

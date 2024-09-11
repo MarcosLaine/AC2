@@ -10,8 +10,8 @@
 # x=1;
 # y=5*x+15;
 
-li t0, 1
-slli t1, t0, 2 #t1 << 2 => t1 * 2² = 2² = 4
-add t1, t1, t0 #t1 = t1 + t1 = t1*2
-addi s1, t1, 15
+li t0, 1 #x=1
+slli t1, t0, 2 #t1 << 2 é o mesmo de dizer: t1 * 2² = 1 * 2² = 4
+add t1, t1, t0 #t1 = t1 + t0 =>  t1 = 4 + 1 = 5
+addi t0, t1, 15  #s1 = t1 + 15 => s1 = 5 + 15 = 20
 nop

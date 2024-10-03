@@ -8,3 +8,4 @@ sub t2, t0, t1 #t0 - t1 = (a + b) - (c + d)
 sub t3, s1, s2 # (2 - 3)
 add t4, t3, t2 # (t3 - x)
 add s2, t1, t3 # x - y
+nop #instrução para que seja possível ver o resultado antes do programa finalizar

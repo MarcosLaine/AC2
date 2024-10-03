@@ -11,3 +11,4 @@ addi t1, zero, 67 #t1 = 67
 sub t1, t1, s2 #t1 = 67 - x (67 - 4 = 63)
 add t0, t0, t1 #t0 = t0 + t1 ( 63 + 12 = 75)
 addi t0, t0, 4 #t0 = t0 + 4 (75 + 4 = 79)
+nop #instrução para que seja possível ver o resultado antes do programa finalizar
